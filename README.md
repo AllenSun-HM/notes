@@ -8,9 +8,9 @@ I built this repo sometime back whil learning the stack
 This is a full-stack chat application that can be up and running with just a few steps. 
 Its frontend is built with [Material UI](https://material-ui.com/) running on top of React.
 The backend is built with Express.js and Node.js.
+<br/><br/>
 ![Screenshot](notes_page.png)
 ![Screenshot](note.png)
-
 <br/><br/>
 
 ### What you need to run this code
