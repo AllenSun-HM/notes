@@ -1,0 +1,18 @@
+
+
+
+.bottom {
+    position: relative;
+    top: 100%;
+    left: 3px;
+}
+
+body{
+    margin: 0%;
+    padding: 0px;
+}
+
+/* *{
+    padding: 1px;
+
+} */

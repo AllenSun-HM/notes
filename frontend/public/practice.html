@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big{
+            height: 500px;
+            background-color: aqua;
+            position: relative;
+        }
+        .center{
+            position: absolute;
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+        .flex{
+            background-color: blue;
+            display: flex;
+            height: 500px;
+            flex-direction: row;
+            justify-content:space-between;
+
+            /* use align-items when there is only one row on the main axis, use align content otherwise */
+            /* align-items: center;  */
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        div span{
+            background-color: black;
+            height: 20px;
+            color: white;
+        }
+        #a{
+            flex: 1;
+        }
+        /* div span:nth-child(2n){
+            color: pink;
+        } */
+    </style>
+</head>
+<body>
+    <span>fffff</span>
+    <div class = "flex">
+        <span id="a">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span>10</span>
+        <span>11</span>
+        <span>12</span>
+    </div>
+    <div>feafafa</div>
+    <span>feafeaf</span>
+    <span>feaf</span>
+    <div class="big">
+        <div class="center"></div>
+    </div>
+    
+
+        <label>
+            <input checked={true} type="checkbox">
+            Checkbox
+        </label>
+    
+</body>
+</html>
