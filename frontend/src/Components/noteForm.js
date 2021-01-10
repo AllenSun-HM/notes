@@ -30,7 +30,7 @@ const NoteForm = ({ notes, setNotes, setErrorMessage, noteFormRef }) => {
   const [newNotes, setNewNotes] = useState({})
   const [important, setImportant] = useState(false)
   return (
-    <div>
+    <div style={{marginLeft: '10px'}}>
       <form onSubmit={(event) => addNote(event, setNotes, notes, noteFormRef, setErrorMessage)}>
       <TextField name='title' required id="standard-required" label="Title" />
 
