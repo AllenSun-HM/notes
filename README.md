@@ -24,6 +24,10 @@ Clone this repository and open command line in the cloned folder.
 <br/><br/>
 To install dependencies, run npm install or yarn.
 <br/><br/>
+add a env file in the backend folder like this:
+<br/><br/>
+![Screenshot](/backend/env.png)
+<br/><br/>
 Make sure you connects to MongoDB
 <br/><br/>
 To run the application for development, run npm start under the frontend folder and npm run development under the backend folder
