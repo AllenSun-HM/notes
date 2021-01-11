@@ -124,7 +124,7 @@ export default function PrimarySearchAppBar({user, setUser}) {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}><Link to="/users">My account</Link></MenuItem>
+      <MenuItem onClick={handleMenuClose}><Link style={{ textDecoration: 'none' }}  to="/users"><Button size='small'>My account</Button></Link></MenuItem>
     </Menu>
   );
 
@@ -181,10 +181,10 @@ export default function PrimarySearchAppBar({user, setUser}) {
           >
             <MenuIcon />
           </IconButton>
-          <Link className={classes.padding} to="/"><Typography className={classes.title} variant="h6" noWrap>
+          <Link style={{ textDecoration: 'none' }} className={classes.padding} to="/"><Typography className={classes.title} variant="h6" noWrap>
             <Button>Home</Button>
           </Typography></Link>
-        <Link  className={classes.padding}  to="/notes"><Typography className={classes.title} variant="h6" noWrap>
+        <Link  style={{ textDecoration: 'none' }} className={classes.padding}  to="/notes"><Typography className={classes.title} variant="h6" noWrap>
             <Button>Notes</Button>
           </Typography></Link>
 

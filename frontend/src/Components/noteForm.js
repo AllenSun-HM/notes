@@ -48,7 +48,7 @@ const NoteForm = ({ notes, setNotes, setErrorMessage, noteFormRef }) => {
         }
         label="Important"
       />
-      <Button style={{marginBottom:'8px'}}size="small" variant="contained" color="primary" type="submit">submit
+      <Button style={{marginBottom:'8px'}} size="medium" variant="contained" color="primary" type="submit">Save
         </Button>
         
       </form>
